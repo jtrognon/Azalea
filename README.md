@@ -61,7 +61,7 @@ Additionally, unused dice can be converted into coins, adding an economic dimens
 Pixel Art and Music: Lily
 NPC Interaction: Lily
 Combat System: Lily
-Card: Lily
+Map: Lily
 
 Object Interaction: Julie
 Inventory: Julie

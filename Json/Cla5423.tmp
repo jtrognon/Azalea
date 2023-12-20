@@ -1,0 +1,8 @@
+{
+	"warrior":{
+		"health":20,
+		"defense":2,
+		"constitution":6,
+		"strenght":5
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"warrior":{
+		"health":20,
+		"defense":2,
+		"constitution":6,
+		"strenght":5
+	},
+	"mage":{
+		"health":30,
+		"defense":0,
+		"constitution":4,
+		"strenght":4
+	}
+}

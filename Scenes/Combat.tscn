@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgy7lmwfuc2pe"]
+
+[ext_resource type="Script" path="res://Scripts/Combat.gd" id="1_vfoo3"]
+[ext_resource type="PackedScene" uid="uid://xpyjep0pqyjo" path="res://Scenes/DialogBox.tscn" id="2_5bs1r"]
+[ext_resource type="Theme" uid="uid://b01nh113avrfm" path="res://Themes/Stats.tres" id="3_4lhbc"]
+
+[node name="Combat" type="Node2D"]
+script = ExtResource("1_vfoo3")
+
+[node name="DialogBox" parent="." instance=ExtResource("2_5bs1r")]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 524.0
+offset_top = -1.0
+offset_right = 1150.0
+offset_bottom = 647.0
+
+[node name="Wisdom" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_4lhbc")
+text = "Wisdom
+"
+
+[node name="Strength" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_4lhbc")
+text = "Strenght"

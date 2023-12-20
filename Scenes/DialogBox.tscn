@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://xpyjep0pqyjo"]
+
+[ext_resource type="Script" path="res://Scripts/DialogBox.gd" id="1_f1k4e"]
+[ext_resource type="Theme" uid="uid://46wf45wdmhsa" path="res://Themes/DialogBox.tres" id="2_n56bw"]
+[ext_resource type="Texture2D" uid="uid://u6g8hccs28lk" path="res://Assets/DialogBox.png" id="3_cqse5"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_f1k4e")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_top = 532.0
+offset_right = 524.0
+offset_bottom = 647.0
+texture = ExtResource("3_cqse5")
+
+[node name="Texte" type="Label" parent="."]
+anchors_preset = -1
+anchor_left = -0.132978
+anchor_top = 0.277916
+anchor_right = -0.0296799
+anchor_bottom = 0.277916
+offset_left = 12.0
+offset_top = 544.0
+offset_right = 214.0
+offset_bottom = 582.0
+scale = Vector2(2.47966, 2.47966)
+theme = ExtResource("2_n56bw")
+vertical_alignment = 2
+autowrap_mode = 3
